@@ -1,0 +1,17 @@
+.post__image_border{
+    border: 1px solid #333;
+}
+.post__image_background{
+ background-color: rgb(242,242,242);
+}
+.paragraph  {
+    a{
+        color: #1d8fb6;
+        transition: all .5s ease;
+        text-decoration: underline;
+        &:hover{
+            color: #c72c11;
+        }
+    }
+
+}

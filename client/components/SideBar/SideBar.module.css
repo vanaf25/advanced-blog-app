@@ -1,0 +1,19 @@
+.sideBar{
+width: 200px;
+    padding: 0 10px;
+}
+.sideBar__card{
+    padding: 10px 5px;
+    transition: background-color .7s;
+    border-radius: 5px/5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.sideBar__card:hover{
+    background-color: rgb(230,230,230);
+}
+.active{
+    background-color: #fff;
+}

@@ -1,0 +1,23 @@
+.rootBlock{
+  padding: 20px;
+  display:flex;
+  align-items:center;
+justify-content:center;
+  flex-direction:column;
+  max-width:max-content;
+  margin:0 auto;
+  & > *:not(:last-child){
+    margin-bottom: 10px !important;
+  }
+  img{
+    transition: opacity .3s;
+    cursor: pointer;
+    &:hover{
+      opacity: .7;
+    }
+  }
+  p{
+    max-width: 300px;
+    text-align: center;
+  }
+}
